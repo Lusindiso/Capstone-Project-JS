@@ -1,6 +1,10 @@
+import itemsCounter from './itemsCounter.js';
+
 const main = document.querySelector('.main');
+const heading = document.querySelector('.heading');
 
 const render = (data) => {
+  heading.innerHTML = `Meals(${itemsCounter(data)})`;
   main.innerHTML = '';
   data.forEach((el) => {
     main.innerHTML += (
