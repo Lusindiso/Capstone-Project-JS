@@ -12,4 +12,4 @@ const getData = async () => {
 };
 
 getData();
-changeHandler()
+changeHandler();
