@@ -2,8 +2,8 @@ import './styles/main.scss';
 import 'regenerator-runtime/runtime.js';
 import render from './modules/render.js';
 import changeHandler from './modules/changeHandler.js';
-import getLikes from './modules/getLikes';
-import eventHandler from './modules/eventHandler';
+import getLikes from './modules/getLikes.js';
+import eventHandler from './modules/eventHandler.js';
 
 const getData = async () => {
   const res = await fetch(
