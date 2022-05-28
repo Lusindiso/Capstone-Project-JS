@@ -32,7 +32,7 @@
 
 ## Video Link
 
-> Here is a video link to our work [link](https://drive.google.com/file/d/15LNvD-5TcJutTbQ7SP69JQTDYTssRhOX/view?usp=sharing)
+> Here is a video link to our work [link](https://www.loom.com/share/b5d0df2df15448acbf696f4c0743c48e)
 
 
 ## 🤝 Contributing
