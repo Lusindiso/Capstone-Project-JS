@@ -1,3 +1,4 @@
+import getLikes from './getLikes.js';
 import render from './render.js';
 
 const category = document.getElementById('category');
@@ -9,7 +10,8 @@ const changeHandler = () => {
       `https://www.themealdb.com/api/json/v1/1/filter.php?c=${cat}`,
     );
     const data = await res.json();
-    render(data.meals);
+    const likes = await getLikes();
+    render(data.meals, likes);
   };
 };
 
